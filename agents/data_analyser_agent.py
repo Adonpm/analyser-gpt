@@ -1,5 +1,5 @@
 from autogen_agentchat.agents import AssistantAgent
-from prompts.data_analyser_message import DATA_ANALYSER_SYSTEM_MESSAGE
+from agents.prompts.data_analyser_message import DATA_ANALYSER_SYSTEM_MESSAGE
 
 def getDataAnalyserAgent(model_client):
     data_analyser_agent = AssistantAgent(
