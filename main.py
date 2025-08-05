@@ -7,7 +7,6 @@ from autogen_agentchat.messages import TextMessage
 async def main():
     openai_model_client = get_model_client()
     docker = getDockerCommandLineExecutor()
-
     team = getDataAnalyserTeam(docker, openai_model_client)
 
     try:
@@ -22,5 +21,5 @@ async def main():
     finally:
         await stop_docker_container()
 
-if __name__ == "__main":
+if __name__ == "__main__":
     asyncio.run(main())
