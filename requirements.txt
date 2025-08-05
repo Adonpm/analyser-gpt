@@ -1,0 +1,13 @@
+autogen-agentchat
+autogen-core
+autogen-ext
+dotenv
+openai
+tiktoken
+autogen-ext[ollama]
+autogen-ext[http-tool]
+autogen-ext[langchain]
+langchain
+langchain-community
+docker
+autogen-ext[docker]
