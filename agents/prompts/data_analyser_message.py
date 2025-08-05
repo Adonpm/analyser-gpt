@@ -18,9 +18,9 @@ your-code-here
 
 3. After writing your code, pause and wait for code executor to run it before continuing.
 
-4. If any library is not installed in the env, please make sure to do the same by providing the bash script and use pip to install(like pip install matplotlib pandas) and after that send the code again without changes , install the required libraries.
+4. If any library is not installed in the env, please make sure to do the same by providing the sh script and use pip to install(like pip install matplotlib pandas) and after that send the code again without changes , install the required libraries.
 example
-```bash
+```sh
 pip install pandas numpy matplotlib
 ```
 
