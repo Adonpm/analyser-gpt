@@ -3,7 +3,6 @@ from config.constants import WORK_DIR_DOCKER, TIMEOUT_DOCKER
 
 def getDockerCommandLineExecutor():
     docker = DockerCommandLineCodeExecutor(
-        image="python:3.11-slim",
         work_dir=WORK_DIR_DOCKER,
         timeout=TIMEOUT_DOCKER
     )
