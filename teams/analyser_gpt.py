@@ -10,7 +10,7 @@ def getDataAnalyserTeam(docker, model_client):
     text_mention_termination = TextMentionTermination("STOP")
 
     team = RoundRobinGroupChat(
-        participants=[code_executor_agent, data_analyser_agent],
+        participants=[data_analyser_agent, code_executor_agent],
         termination_condition=text_mention_termination,
         max_turns=10
     )
