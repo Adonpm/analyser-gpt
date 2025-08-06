@@ -10,7 +10,7 @@ async def main():
     team = getDataAnalyserTeam(docker, openai_model_client)
 
     try:
-        task = "Can you give me a graph of types of flowers in my data iris.csv"
+        task = "Can you give me a graph of types of flowers in my data Iris.csv"
         await start_docker_container(docker)
         async for message in team.run_stream(task=task):
             print(message)
