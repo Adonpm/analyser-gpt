@@ -25,7 +25,7 @@ pip install pandas numpy matplotlib
 ```
 
 5. If the code ran successfully, then analyze the output and continue as needed. 
-
+6. Always save plots (if plots are generated) using plt.savefig() instead of plt.show() so they persist after execution.
 
 Once we have completed all the task, please mention 'STOP' after explaning in depth the final answer.
 
