@@ -55,7 +55,7 @@ async def run_analyzer_gpt(docker, model_client, task):
                 st.session_state.messages.append(message.stop_reason)
         
         # Saving state 
-        st.session_state.autogen_team_state = team.save_state()
+        st.session_state.autogen_team_state = await team.save_state()
         return None
 
     except Exception as e:
